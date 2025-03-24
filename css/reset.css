@@ -12,8 +12,8 @@ html {
 body {
   /* background-color: #fbfbfb; */
   font-family: "Poppins", sans-serif;
-  max-width: 1600px;
   /* color: #0c0c0c; */
+  box-sizing: border-box;
 }
 
 h1,
@@ -47,4 +47,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 220px;
 }

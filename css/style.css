@@ -42,7 +42,7 @@
 @font-face {
   font-family: "Roboto", sans-serif;
   src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
-    url("../fonts/Roboto.ttf") format("truetype");
+    url("../fonts/Roboto-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -50,8 +50,8 @@
 
 @font-face {
   font-family: "Roboto", sans-serif;
-  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
-    url("../fonts/Roboto-Medium.ttf") format("truetype");
+  src: url("../fonts/Roboto-SemiBold.woff2") format("woff2"),
+    url("../fonts/Roboto-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -102,25 +102,39 @@ h2 {
 }
 
 .header {
-  width: 1490px;
   height: 56px;
-  padding: 0 220px;
 }
 
 .nav-menu {
-  /* display: flex; */
+  display: flex;
   color: #4597f7;
 }
 
-.nav-list {
+.nav-list,
+.action-list {
   gap: 1em;
+  align-items: center;
+  font-family: var(--font3);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav-list {
+  margin-right: 1em;
+}
+
+.nav-item {
+  color: var(--color-3);
 }
 
 .logo-head {
   display: flex;
+  max-width: 1440px;
+  padding: 0 220px;
+  justify-content: space-between;
 }
 
-.call {
+.action-call {
   border: 2px solid #272d4e;
   border-radius: 60px;
   cursor: pointer;
