@@ -101,40 +101,30 @@ h2 {
   font-weight: 600;
 }
 
-ul li {
-  color: red;
-}
-
-li > h3 {
-  color: #4597f7;
-}
-
-ul li + li {
-  color: green;
-}
-
-ul ul li {
-  color: blue;
-}
-
-ul ul li + li {
-  color: orange;
-}
-
-ul ul ol li {
-  color: #4597f7;
-}
-
-ul ul ol li + li {
-  color: #5d5d5d;
-}
-
-span {
-  color: #a0f0fc;
+.header {
+  width: 1490px;
+  height: 56px;
+  padding: 0 220px;
 }
 
 .nav-menu {
+  /* display: flex; */
+  color: #4597f7;
+}
+
+.nav-list {
+  gap: 1em;
+}
+
+.logo-head {
   display: flex;
+}
+
+.call {
+  border: 2px solid #272d4e;
+  border-radius: 60px;
+  cursor: pointer;
+  padding: 13px 19px;
 }
 
 .title-four {

@@ -12,7 +12,7 @@ html {
 body {
   /* background-color: #fbfbfb; */
   font-family: "Poppins", sans-serif;
-  padding: 1em;
+  max-width: 1600px;
   /* color: #0c0c0c; */
 }
 
@@ -28,13 +28,15 @@ p {
 
 ul,
 ol {
-  /* display: flex; */
+  display: flex;
   list-style: none;
 }
 
 a {
   color: currentColor;
   text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
 }
 
 button {
