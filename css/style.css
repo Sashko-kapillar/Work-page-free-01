@@ -22,17 +22,78 @@
 }
 
 @font-face {
-  font-family: "Poppins", sans-serif;
-  src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
-    url("../fonts/Poppins-Medium.ttf") format("truetype");
+  font-family: "Inter", sans-serif;
+  src: url("../fonts/Inter-Medium.woff2") format("woff2"),
+    url("../fonts/Inter.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url("../fonts/Inter-Medium.woff2") format("woff2"),
+    url("../fonts/Inter-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* шрифти  
+Inter Regular 47
+Montserrat Bold 39
+Cocogoose Classic Regular 26
+Montserrat Regular 24
+Inter Bold 17
+Roboto Regular 17
+Cocogoose Classic Bold 15
+Circular Std Bold 15
+Inter Semi Bold 14
+Roboto Medium 12
+Montserrat Medium 10
+Roboto Bold 8
+Poppins Regular 6
+Manrope Regular 4
+Circular Std Book 3 */
+
 :root {
-  /*шрифти*/
-  --font-family: "Poppins", sans-serif;
+  --font-family: "Inter", sans-serif;
+  --second-family: "Montserrat", sans-serif;
+  --third-family: "Cocogoose Classic", sans-serif;
+  --font3: "Roboto", sans-serif;
+  --font4: "Circular Std", sans-serif;
+  --font5: "Poppins", sans-serif;
+  --font6: "Manrope", sans-serif;
+  --font7: "Rubik", sans-serif;
+  --font8: "Open Sans", sans-serif;
+}
+
+/* кольори */
+:root {
+  --color: #fff;
+  --color-2: #191c2f;
+  --color-3: #7d25f0;
+  --color-4: #f26522;
+  --color-5: #f7941d;
+  --black: #000;
 }
 
 h2 {
@@ -70,6 +131,10 @@ ul ul ol li + li {
 
 span {
   color: #a0f0fc;
+}
+
+.nav-menu {
+  display: flex;
 }
 
 .title-four {
