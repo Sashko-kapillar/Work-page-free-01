@@ -1,54 +1,10 @@
 @import url("reset.css");
+@import url("fonts.css");
 
 .poppins-semibold {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-}
-
-@font-face {
-  font-family: "Poppins", sans-serif;
-  src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
-    url("../fonts/Poppins.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter", sans-serif;
-  src: url("../fonts/Inter-Medium.woff2") format("woff2"),
-    url("../fonts/Inter.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter", sans-serif;
-  src: url("../fonts/Inter-Medium.woff2") format("woff2"),
-    url("../fonts/Inter-Medium.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto", sans-serif;
-  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
-    url("../fonts/Roboto-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto", sans-serif;
-  src: url("../fonts/Roboto-SemiBold.woff2") format("woff2"),
-    url("../fonts/Roboto-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
 }
 
 /* шрифти  
