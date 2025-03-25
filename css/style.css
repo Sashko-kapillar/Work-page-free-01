@@ -1,11 +1,5 @@
 @import url("reset.css");
 
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .poppins-semibold {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -101,13 +95,15 @@ h2 {
   font-weight: 600;
 }
 
-.header {
-  height: 56px;
+h3 {
+  font-size: 18px;
 }
 
-.nav-menu {
+.header-container {
   display: flex;
-  color: #4597f7;
+  height: 56px;
+  margin-top: 20px;
+  justify-content: space-between;
 }
 
 .nav-list,
@@ -116,29 +112,42 @@ h2 {
   align-items: center;
   font-family: var(--font3);
   font-weight: 500;
-  font-size: 18px;
+  font-size: 12px;
 }
 
-.nav-list {
+/* .nav-list {
   margin-right: 1em;
-}
+} */
 
 .nav-item {
   color: var(--color-3);
 }
 
-.logo-head {
+.nav-menu {
   display: flex;
-  max-width: 1440px;
-  padding: 0 220px;
-  justify-content: space-between;
+  align-items: center;
+  /* justify-content: space-between; */
+  color: #4597f7;
+}
+
+.logo {
+  margin-right: 124px;
+  display: flex;
+  align-items: center;
 }
 
 .action-call {
   border: 2px solid #272d4e;
   border-radius: 60px;
   cursor: pointer;
-  padding: 13px 19px;
+  padding: 8px 16px;
+}
+
+.action-start {
+  padding: 8px 40px;
+  background-color: #5a54f2;
+  border: 2px solid #5a54f2;
+  color: #fff;
 }
 
 .title-four {

@@ -33,7 +33,7 @@ ol {
 }
 
 a {
-  color: currentColor;
+  /* color: currentColor; */
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -50,6 +50,6 @@ img {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1480px;
   padding: 0 220px;
 }
