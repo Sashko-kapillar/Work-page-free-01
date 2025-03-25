@@ -106,13 +106,21 @@ h3 {
   justify-content: space-between;
 }
 
+.logo {
+  margin-right: 124px;
+}
+
+.nav-action {
+  display: flex;
+}
+
 .nav-list,
 .action-list {
   gap: 1em;
   align-items: center;
   font-family: var(--font3);
   font-weight: 500;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 /* .nav-list {
@@ -126,12 +134,11 @@ h3 {
 .nav-menu {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   color: #4597f7;
 }
 
 .logo {
-  margin-right: 124px;
   display: flex;
   align-items: center;
 }
